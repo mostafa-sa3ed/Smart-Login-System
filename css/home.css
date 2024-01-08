@@ -1,0 +1,23 @@
+body{  background-image: url(/imges/home.jpg);
+    background-position: center center;
+    background-size: cover;}
+nav{
+    background-color: #0E1008 !important;
+
+}
+section{
+  
+    height: 80vh;
+}
+p{
+    font-family: 'Alegreya', serif;
+font-family: 'Inter Tight', sans-serif;
+font-family: 'Lemon', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', sans-serif;
+}
+

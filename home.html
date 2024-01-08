@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Inter+Tight:wght@100&family=Lemon&family=Montserrat:wght@500&family=Open+Sans:ital,wght@0,300;0,500;1,300&family=Oxygen:wght@300&family=Pacifico&family=Poppins:ital,wght@0,300;0,700;1,200&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- home style -->
+    <link rel="stylesheet" href="css/home.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning">Smart Login</a>
+        <form class="d-flex" role="search">
+          <button class="btn" type="submit">
+            <a href="login.html" id="logBtn" class="btn btn-outline-warning"
+              >Logout</a
+            >
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <section class="w-100">
+      <div class="container mx-auto my-5 text-center">
+        <div class="group m-auto w-75 p-5 bg-dark text-warning rounded-3">
+          <p class="fs-1">
+            Welcome <span id="userName" class="text-danger"></span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>

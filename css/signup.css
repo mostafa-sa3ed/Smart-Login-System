@@ -1,0 +1,9 @@
+section{
+    background-image: url(../imges/b-slide11.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.signup{
+    background-color: rgba(0, 0, 0, 0.5);
+}
